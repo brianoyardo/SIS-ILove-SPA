@@ -1,0 +1,122 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "Color": "Negro",
+      "img": "images/negra.jpg",
+      "stock": 50,
+      "precio": 20
+    },
+    {
+      "id": 2,
+      "Color": "Rojo",
+      "img": "images/roja.jpeg",
+      "stock": 50,
+      "precio": 30
+    },
+    {
+      "id": 3,
+      "Color": "Naranja",
+      "img": "images/naranja.jpeg",
+      "stock": 50,
+      "precio": 10
+    },
+    {
+      "id": 4,
+      "Color": "Amarillo",
+      "img": "images/amarilla.jpg",
+      "stock": 50,
+      "precio": 15
+    },
+    {
+      "id": 4,
+      "Color": "Amarillo",
+      "img": "images/amarilla.jpg",
+      "stock": 50,
+      "precio": 15
+    }
+  ],
+  "ventas": [
+    {
+      "fecha": "31/10/2023, 15:37:04",
+      "detalles": [
+        {
+          "producto_Id": 1,
+          "precio": 20,
+          "cantidad": 3,
+          "precioConDescuento": "20.00"
+        },
+        {
+          "producto_Id": 2,
+          "precio": 30,
+          "cantidad": 1,
+          "precioConDescuento": "30.00"
+        },
+        {
+          "producto_Id": 3,
+          "precio": 10,
+          "cantidad": 1,
+          "precioConDescuento": "10.00"
+        },
+        {
+          "producto_Id": 4,
+          "precio": 15,
+          "cantidad": 1,
+          "precioConDescuento": "15.00"
+        }
+      ],
+      "total": "129.95",
+      "id": 1
+    },
+    {
+      "fecha": "31/10/2023, 17:23:18",
+      "detalles": [
+        {
+          "producto_Id": 1,
+          "precio": 20,
+          "cantidad": 10,
+          "precioConDescuento": "20.00"
+        },
+        {
+          "producto_Id": 2,
+          "precio": 30,
+          "cantidad": 6,
+          "precioConDescuento": "30.00"
+        },
+        {
+          "producto_Id": 4,
+          "precio": 15,
+          "cantidad": 1,
+          "precioConDescuento": "15.00"
+        },
+        {
+          "producto_Id": 1,
+          "precio": 20,
+          "cantidad": 1,
+          "precioConDescuento": "20.00"
+        }
+      ],
+      "total": "422.05",
+      "id": 2
+    },
+    {
+      "fecha": "11/21/2023, 5:27:16 PM",
+      "detalles": [
+        {
+          "producto_Id": 4,
+          "precio": 15,
+          "cantidad": 9,
+          "precioConDescuento": "15.00"
+        },
+        {
+          "producto_Id": 2,
+          "precio": 30,
+          "cantidad": 1,
+          "precioConDescuento": "30.00"
+        }
+      ],
+      "total": "167.80",
+      "id": 3
+    }
+  ]
+}
